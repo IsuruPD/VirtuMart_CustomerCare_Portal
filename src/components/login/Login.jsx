@@ -111,7 +111,7 @@ const Login = () => {
 
       <div className="item">
 
-        <h2>Login Here!</h2>
+        <h2>VirtuMart Customer Care Portal</h2>
 
         <form onSubmit={handleLogin}>
           <input type="text" placeholder="Email" name="email" />
@@ -121,10 +121,7 @@ const Login = () => {
 
       </div>
 
-
-      <div className="separator"></div>
-
-
+{/*   <div className="separator"></div>
       <div className="item">
 
         <h2>Create an Account</h2>
@@ -146,7 +143,7 @@ const Login = () => {
           <button disabled={loading}>{loading ? "Loading" : "Sign Up"}</button>
         </form>
 
-      </div>
+      </div> */}
     </div>
   );
 };

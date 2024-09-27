@@ -23,7 +23,9 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   display: flex;
-  /*  *//*  *//*  *//*  */
+  overflow-x: hidden;
+
+
   button {
     padding: 15px;
     background-color: rgba(230, 74, 105, 0.553);
@@ -41,7 +43,6 @@ body {
       background-color: #e81a1a;
     }
   }
-  /*  *//*  *//*  *//*  */
 }
 
 .loading{

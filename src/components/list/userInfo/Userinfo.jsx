@@ -11,9 +11,9 @@ const Userinfo = () => {
         <img src={currentUser.profileImg || "./profileImg.png"} alt="" />
         <h2>{currentUser.username}</h2>
       </div>
-      <div className="icons">
+      {/* <div className="icons">
         <img src="./more.png" alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

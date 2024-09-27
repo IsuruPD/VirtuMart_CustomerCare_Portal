@@ -123,9 +123,9 @@ const Chat = () => {
             <p></p>
           </div>
         </div>
-        <div className="icons">
+        {/* <div className="icons">
           <img src="./info.png" alt="" />
-        </div>
+        </div> */}
       </div>
       <div className="center">
         {chat.messages.map((message, index) => (
@@ -150,7 +150,7 @@ const Chat = () => {
         <div ref={endRef}></div>
       </div>
       <div className="bottom">
-        <div className="icons">
+        {/* <div className="icons">
           <label htmlFor="file">
             <img src="./img.png" alt="" />
           </label>
@@ -160,7 +160,7 @@ const Chat = () => {
             style={{ display: "none" }}
             onChange={handleImg}
           />
-        </div>
+        </div> */}
         <input
           type="text"
           placeholder={
